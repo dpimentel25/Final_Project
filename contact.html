@@ -7,6 +7,63 @@
     <title>Final Project</title>
 </head>
 <body>
-    
+    <header>
+        <nav class="nav-bar">
+            <img class="logo" src="img/logo.jpg" alt="barbers"/>
+	    <ul class="nav-list">
+	        <li class="list-item 1"><a href="index.html" target="_blank">Home</a></li>
+	        <li class="list-item 2"><a href="about.html" target="_blank">About</a></li>
+	        <li class="list-item 3"><a href="contact.html" target="_blank">Contact</a></li>
+	    </ul>
+	</nav>
+    <section>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.1695500247843!2d-118.3870265855214!3d34.09079672314628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bfe1ebb86461%3A0x245cf2cb4ce8d33e!2sICONIC%20BARBERSHOP!5e0!3m2!1sen!2sus!4v1628132710508!5m2!1sen!2sus" width="600" height="495" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="Booking Time">Booking Time</label>
+          <select id="BookingTime" name="BookingTime">
+            <option value="8:00AM">8:00AM</option>
+            <option value="8:15AM">8:15AM</option>
+            <option value="8:30AM">8:30AM</option>
+            <option value="8:45AM">8:45AM</option>
+            <option value="9:00AM">9:00AM</option>
+            <option value="9:15AM">9:15AM</option>
+            <option value="9:30AM">9:30AM</option>
+            <option value="9:45AM">9:45AM</option>
+            <option value="10:00AM">10:00AM</option>
+            <option value="10:15AM">10:15AM</option>
+            <option value="10:30AM">10:30AM</option>
+            <option value="10:45AM">10:45AM</option>
+            <option value="11:00AM">11:00AM</option>
+            <option value="11:15AM">11:15AM</option>
+            <option value="11:30AM">11:30AM</option>
+            <option value="11:45AM">11:45AM</option>
+            <option value="12:00PM">12:00PM</option>
+        
+        
+          </select>
+      
+          <label for="specialrequest">Special Request</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="book" value="Book!">
+      
+        </form>
+      </div>
+      <footer class="footer">
+	    <div class="footer-col copyright">
+	        <p>&copy; All Rights Reserved. Daniel Pimentel 2021</p>
+	    </div>
+	</footer>
 </body>
 </html>
